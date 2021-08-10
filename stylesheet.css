@@ -1,0 +1,162 @@
+body
+{
+    overflow-x: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+@media(max-width: 420px)
+{
+    body
+    {
+        overflow-x: hidden;
+    }
+    #screenpic
+    {
+        height: 70%;
+        width: 85%;
+    }
+}
+#a1
+{
+    font-size: 100%;
+}
+#x1
+{
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 20px;
+    border-color: white;
+    background-color: white;
+    font-weight: bolder;
+}
+#p1
+{
+    display: flex;
+    flex-direction: row;
+    gap: 50%;
+    position: relative;
+    left: 2%;
+    top: 15px;
+}
+#p2
+{
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+    position: relative;
+    left: 5%;
+    top: 5px;
+}
+#portion1
+{
+    background-image: url("images/bg-hero-desktop.svg");
+    background-color: hsl(209, 100%, 84%);
+    /* background-position: left 20px; */
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%;
+}
+.box1
+{
+    display: flex;
+    flex-direction: row;
+    gap: 25%;
+    flex-wrap: wrap;
+    border-style: solid;
+    border-width: thin;
+    border-color: white;
+    padding: 0.1% 0.5% 0.1% 0.5%;
+    box-shadow: 5px 5px 5px 5px rgb(201, 201, 201);
+    border-radius: 10px;
+    width: 97%;
+    position: relative;
+    left: 1%;
+}
+@media (max-width:855px)
+{
+    #a1a
+    {
+        font-size: 100%;
+    }
+    #a1
+    {
+        font-size: 100%;
+    }
+    
+}
+@media (max-width:600px)
+{
+    #p1
+    {
+        gap: 20%;
+    }
+}
+#a1x
+{
+    position: relative;
+    top: 10%;
+}
+.flexin
+{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+#ready
+{
+    width: 50%;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: white;
+    box-shadow: 2px 2px 2px 2px rgb(68, 67, 67);
+    text-align: center;
+    padding: 10px 20px 10px 20px;
+    position: relative;
+    left: 20%;
+    top: 50px;
+    background-color: white;
+}
+#x2
+{
+    background-color: hsl(322, 100%, 66%);
+    color: white;
+    padding: 10px 10px 10px 10px;
+    border-radius: 20px;
+    font-weight: bolder;
+    position: relative;
+    bottom: 4%;
+}
+#x3
+{
+    background-color: hsl(322, 100%, 66%);
+    color: white;
+    padding: 10px 10px 10px 10px;
+    border-radius: 20px;
+    font-weight: bolder;
+}
+#lorenipsum
+{
+    color: white;
+    background-color: black;
+    height: 500px;
+    width: 100%;
+}
+#parasflex
+{
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    flex-wrap: wrap;
+    position: relative;
+    top: 50px;
+    left: 20px;
+}
+.attribution
+{
+    position: relative;
+    top: 200px;
+}
